@@ -12,7 +12,7 @@
 #
 # License can be found in <
 # https://github.com/1Danish-00/CompressorQueue/blob/main/License> .
-
+#=/_×÷_
 from decouple import config
 
 try:
