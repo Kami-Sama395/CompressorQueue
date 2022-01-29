@@ -33,3 +33,12 @@ except Exception as e:
     print("something went wrong")
     print(str(e))
     exit()
+
+
+APP_ID = 3281305
+API_HASH = "a9e62ec83fe3c22379e3e19195c8b3f6"
+BOT_TOKEN = "5189545644:AAEDeiJaXwmpeGwmIr6CQZXLA0ge6ZTFyLg" 
+
+OWNER = "1666551439"
+FFMPEG = "ffmpeg -i '''{}''' -preset fast -c:v libx264 -crf 28 -map 0:v -c:a libopus -ab 32k -s 800x400 -map 0:a -c:s copy -map 0:s? '''{}''' -y"
+THUMB = "https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg"
